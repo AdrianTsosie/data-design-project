@@ -27,6 +27,8 @@
 								dancing all night. He needs to find a up to date site that can give him the newest music.</li>
 			</ul>
 
-		<h3><a href="./use-case.php">DJ Get Right!'s Story</a></h3>
+		<h3><a href="./index.html">Home</a></h3>
+		<h4><a href="./use-case.php">User Story</a></h4>
+		<h5><a href="./conceptual-model.php">Conceptual Model</a></h5>
 	</body>
 </html>

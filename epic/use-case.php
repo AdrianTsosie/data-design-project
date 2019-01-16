@@ -11,4 +11,7 @@
 				amount of time to spend on the site, i need to be able to loock through songs quickly and easily in order
 				to get as many as i can while I am on for the visit.
 			</p>
+
+		<h2><a href="./dj-get-right.php">Persona</a></h2>
+		<h3><a href="./conceptual-model.php">Conceptual Model</a></h3>
 	</body>
