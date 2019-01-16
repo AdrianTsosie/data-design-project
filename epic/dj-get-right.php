@@ -6,8 +6,9 @@
 	</head>
 	<body>
 		<h1>DJ Get Right</h1>
+
 		<div>
-			<img src="DJ Get Right.jpg" alt="DJ Get Right">
+			<img src="C:\Users\USER\Desktop\bootcamp\git\data-design-project\DJ Get Right.jpg" alt="DJ Get Right">
 		</div>
 
 		<h2>Persona</h2>
