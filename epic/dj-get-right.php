@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>DJ Get Right</title>
+		<title>DJ Get Right!</title>
 	</head>
 	<body>
 
@@ -23,7 +23,7 @@
 						<li>iPhone Xr with unlimited 4G LTE data</li>
 						<li>(2) Pioneer CDJ2000NXS2 players</li>
 						<li>Pioneer DJM900NXS2 mixer</li>
-						<li>uses Serto DJ Live and RekordBox.</li>
+						<li>Uses Serto DJ Live and RekordBox.</li>
 					</ul>
 				<li><strong>Attitudes and Behaviors:</strong></li>
 					<ul>
@@ -33,13 +33,13 @@
 					</ul>
 				<li><strong>Frustrations and Needs:</strong>
 					<ul>
-						<li>Get Right is always on the look out for the newest music to come out.</li>
-						<li>He has accounts on other sites but is looking for something new.</li>
+						<li>Wants to find one site that can get him the new music he needs.</li>
+						<li>He doesn't like the other sites layouts.</li>
 					</ul>
 				<li><strong>Goals:</strong></li>
 					<ul>
 						<li>He needs to to stay fresh with his music in order to keep the patrons happy and dancing all night.</li>
-						<li>He needs to find a up to date site that can give him the newest music.</li>
+						<li>He needs to find an up to date site that can give him the newest music.</li>
 					</ul>
 			</ul>
 
