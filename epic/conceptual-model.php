@@ -5,11 +5,12 @@
 		<title>DJ Get Right!'s Conceptual Model</title>
 	</head>
 	<body>
-		<h1>Conceptual Model</h1>
 
 		<div>
 			<img src="Get Right Conceptual Model.jpg" alt="Conceptual Model">
 		</div>
+
+		<h1>Conceptual Model</h1>
 
 		<p>
 
