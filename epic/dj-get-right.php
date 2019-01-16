@@ -2,14 +2,23 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>DJ Get Righ</title>
+		<title>DJ Get Right</title>
 	</head>
 	<body>
-		<h1>Persona</h1>
-			<p><strong>Name:</strong>DJ Get Right
-				<strong>Age:</strong>23
-				<strong>Profession:</strong>
+		<h1>DJ Get Right</h1>
+		<div>
+			<img src="DJ Get Right.jpg" alt="DJ Get Right">
+		</div>
 
-			</p>
+		<h2>Persona</h2>
+			<ul>
+				<li><strong>Name:</strong> DJ Get Right</li>
+				<li><strong>Age:</strong> 23</li>
+				<li><strong>Profession:</strong></li>
+				<li><strong>Technology:</strong></li>
+				<li><strong>Attitudes and Behaviors:</strong></li>
+				<li><strong>Frustrations and Needs:</strong></li>
+				<li><strong>Goals:</strong></li>
+			</ul>
 	</body>
 </html>
