@@ -8,7 +8,7 @@
 		<h1>DJ Get Right!</h1>
 
 		<div>
-			<img src="DJ Get Right 2.jpg" alt="DJ Get Right">
+			<img src="Get Right Persona.jpg" alt="Persona">
 		</div>
 
 		<h2>Persona</h2>

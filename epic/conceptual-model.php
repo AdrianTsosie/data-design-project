@@ -2,10 +2,15 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>DJ Get!'s Conceptual Model</title>
+		<title>DJ Get Right!'s Conceptual Model</title>
 	</head>
 	<body>
 		<h1>Conceptual Model</h1>
+
+		<div>
+			<img src="Get Right Conceptual Model.jpg" alt="Conceptual Model">
+		</div>
+
 		<p>
 
 		</p>
