@@ -24,8 +24,8 @@
 					<ul>songTitle</ul>
 					<ul>songBPM</ul>
 				<li><strong>Related</strong></li>
-					<ul>realtedSongId</ul>
-					<ul>relatedAccuntId</ul>
+					<ul>realtedSongId (foreign key)</ul>
+					<ul>relatedAccuntId (foreign key)</ul>
 				<li><strong>Relations:</strong></li>
 					<ul>Many account can have many songs (1 to m)</ul>
 					<ul>One artist can have many songs (1 to m)</ul>
