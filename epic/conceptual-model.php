@@ -11,10 +11,22 @@
 		</div>
 
 		<h1>Conceptual Model</h1>
+		<h2>Entites & Attributes</h2>
+			<ul>
+				<li><strong>Account:</strong></li>
+					<ul>accountId (primary key)</ul>
+					<ul>accountActivationToken (for account verification)</ul>
+					<ul>accountEmail</ul>
+					<ul>accountPassword</ul>
+				<li><strong>Songs:</strong></li>
+					<ul>songsId</ul>
+				<li><strong>Download:</strong></li>
+					<ul>downloadSongId</ul>
+				<li><strong>Relations:</strong></li>
+					<ul>One account can have many downloads (1 to many)</ul>
+					<ul>Many artist  ca have many songs (m to m)</ul>
+			</ul>
 
-		<p>
-
-		</p>
 
 		<h2><a href="./index.html">Home</a></h2>
 		<h3><a href="./dj-get-right.php">Persona</a></h3>
