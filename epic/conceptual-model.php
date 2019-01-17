@@ -18,17 +18,24 @@
 					<ul>accountActivationToken (for account verification)</ul>
 					<ul>accountEmail</ul>
 					<ul>accountPassword</ul>
-				<li><strong>Songs:</strong></li>
-					<ul>songsId</ul>
-				<li><strong>Download:</strong></li>
-					<ul>downloadSongId</ul>
+				<li><strong>Song:</strong></li>
+					<ul>songId (primary tag)</ul>
+					<ul>songArtist</ul>
+					<ul>songTitle</ul>
+					<ul>songBPM</ul>
+				<li><strong>Related</strong></li>
+					<ul>realtedSongId</ul>
+					<ul>relatedAccuntId</ul>
 				<li><strong>Relations:</strong></li>
-					<ul>One account can have many downloads (1 to many)</ul>
-					<ul>Many artist  ca have many songs (m to m)</ul>
+					<ul>Many account can have many songs (1 to m)</ul>0
+					<ul>One artist can have many songs (1 to m)</ul>
 			</ul>
 
+		<h3>ERD Diagram</h3>
+		<img src="Data Project ERD.jpg" alt="ED Diagram">
 
-		<h2><a href="./index.html">Home</a></h2>
-		<h3><a href="./dj-get-right.php">Persona</a></h3>
-		<h4><a href="./use-case.php">User Story</a></h4>
+
+		<h4><a href="./index.html">Home</a></h4>
+		<h5><a href="./dj-get-right.php">Persona</a></h5>
+		<h6><a href="./use-case.php">User Story</a></h6>
 	</body>
