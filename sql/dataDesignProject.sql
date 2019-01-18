@@ -7,35 +7,32 @@ DROP TABLE IF EXISTS related;
 
 CREATE TABLE account (
 	accountId BINARY(16) NOT NULL,
-	accountActivationToken CHAR(32),
-	accountEmail VARCHAR(32) NOT NULL,
-	accountPassword VARCHAR(128) NOT NULL,
+	accountActivationToken BINARY(16) NOT NULL,
+	accountEmail BINARY(16) NOT NULL,
+	accountPassword BINARY(16) NOT NULL,
 	-- to make sure duplicate data cannot exist, create a unique index
-	UNIQUE(profileAtHandle),
-	UNIQUE(profileEmail),
+	UNIQUE(accountActivationToken),
+	UNIQUE(accountEmail),
+	UNIQUE(accountPassword),
 	PRIMARY KEY(accountId)
 );
 
 CREATE TABLE song (
 	songId BINARY(16) NOT NULL,
-	-- this is for a foreign key
 	songArtist BINARY(16) NOT NULL,
-	songTitle VARCHAR(140) NOT NULL,
-	songBPM DATETIME(6) NOT NULL,
+	songTitle BINARY(16) NOT NULL,
+	songBPM BINARY(16) NOT NULL,
 	-- this creates an index before making a foreign key
-	INDEX(tweetProfileId),
+	INDEX(songTitle),
 	PRIMARY KEY(songId)
 );
 
 CREATE TABLE related (
-	-- these are still foreign keys
-	realtedSongId BINARY(16) NOT NULL,
-	relatedAccuntId BINARY(16) NOT NULL,
-	-- index the foreign keys
-	INDEX(realtedSongId),
-	INDEX(relatedAccuntId),
+	relatedSongId BINARY(16) NOT NULL,
+	relatedAccountId BINARY(16) NOT NULL,
+	INDEX(relatedSongId),
+	INDEX(relatedAccountId),
 	FOREIGN KEY(relatedSongId) REFERENCES song(songId),
 	FOREIGN KEY(relatedAccountId) REFERENCES account(accountId),
-	-- finally, create a composite foreign key with the two foreign keys
-	PRIMARY KEY(accountId, songId)
+	PRIMARY KEY(relatedSongId, relatedAccountId)
 );
