@@ -7,10 +7,9 @@ DROP TABLE IF EXISTS related;
 
 CREATE TABLE account (
 	accountId BINARY(16) NOT NULL,
-	accountActivationToken BINARY(16) NOT NULL,
+	accountActivationToken CHAR(32),
 	accountEmail BINARY(16) NOT NULL,
 	accountPassword BINARY(16) NOT NULL,
-	-- to make sure duplicate data cannot exist, create a unique index
 	UNIQUE(accountActivationToken),
 	UNIQUE(accountEmail),
 	UNIQUE(accountPassword),
@@ -22,7 +21,6 @@ CREATE TABLE song (
 	songArtist BINARY(16) NOT NULL,
 	songTitle BINARY(16) NOT NULL,
 	songBPM BINARY(16) NOT NULL,
-	-- this creates an index before making a foreign key
 	INDEX(songTitle),
 	PRIMARY KEY(songId)
 );
