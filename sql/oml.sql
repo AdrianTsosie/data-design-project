@@ -15,4 +15,5 @@ SELECT account.accountId, account.accountActivationToken, account.accountEmail, 
 	WHERE account.accountId = "b672dee903ef42f1af52e86f30c8289d"
 
 SELECT count(*) FROM song
-WHERE songArtist LIKE "%Atrist%"
+WHERE songArtist LIKE "%Atrists
+%"
