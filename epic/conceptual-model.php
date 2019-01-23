@@ -11,7 +11,7 @@
 		</div>
 
 		<h1>Conceptual Model</h1>
-		<h2>Entites & Attributes</h2>
+		<h2>Entities & Attributes</h2>
 			<ul>
 				<li><strong>Account:</strong></li>
 					<ul>accountId (primary key)</ul>
