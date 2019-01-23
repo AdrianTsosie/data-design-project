@@ -11,4 +11,4 @@ INSERT INTO related(relatedSongId, relatedAccountId)
 SELECT songId, songArtist, songTitle, songBPM from song WHERE songId = UNHEX("a39d2adc59634feeb2600c6ac04eda75");
 
 SELECT account.accountId, account.accountActivationToken, account.accountEmail, related.relatedAccountId
-	FROM account INNERJOIN related on related.relatedAccountId = account.accountId WHERE song.songId = "Track".
+	FROM account INNERJOIN related on related.relatedAccountId = account.accountId WHERE song.songId = "Booty Call".
