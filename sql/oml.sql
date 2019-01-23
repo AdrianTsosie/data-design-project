@@ -13,3 +13,6 @@ SELECT songId, songArtist, songTitle, songBPM from song WHERE songId = UNHEX("a3
 SELECT account.accountId, account.accountActivationToken, account.accountEmail, related.relatedAccountId
 	FROM account INNER JOIN related on related.relatedAccountId = account.accountId
 	WHERE account.accountId = "b672dee903ef42f1af52e86f30c8289d"
+
+SELECT count(*) FROM song
+WHERE songArtist LIKE "%Atrist%"
